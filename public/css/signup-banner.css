@@ -1,0 +1,10 @@
+.signup-banner {
+  background-image: radial-gradient(circle at 100%, #0065fd, #93d8fd);
+}
+
+.signup-banner .tw-container {
+  height: 700px;
+  background-image: url("https://laracasts.com/images/home/main-illustration.svg"), url("https://laracasts.com/images/series/2018/php-default.svg"), url("https://laracasts.com/images/series/2018/php-default.svg");
+  background-repeat: no-repeat;
+  background-position: 0 100%, 0 0, 100% 100%;
+}
