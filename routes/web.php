@@ -20,3 +20,7 @@ Route::get('/mobile', function () {
 });
 
 Route::resource('/', 'PagesController');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
